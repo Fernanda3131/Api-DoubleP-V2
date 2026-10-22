@@ -1,0 +1,33 @@
+#  Python / Django ---
+*.pyc
+*__pycache__/
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+#  Entornos Virtuales ---
+venv/
+env/
+ENV/
+.venv/
+
+#  Configuraciones de Editor ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Sistema Operativo ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Archivos de desarrollo / Secretos ---
+*.env
+client_secret.json
+requirements.txt.bak
